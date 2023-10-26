@@ -13,11 +13,14 @@
         &__icons {
             margin-top: 40px;
         }
-    .button_main {
-        margin-top: 40px;
+    .button {
+        &_main {
+            margin-top: 40px;
+        }
     }
+    
     .header {
-        margin: 0 16px 0 16px;
+        margin: 0 16px;
     }
         &__link {
             margin-top: 12px;
@@ -28,6 +31,12 @@
         &__blocks {
             gap: 30px;
         }
+    }
+    .consultation {
+        padding: 80px 16px 72px 16px;
+    }
+    .button_submit {
+        width: 300px;
     }
 }
 
@@ -60,12 +69,31 @@
             height: 50px;
             font-size: 14px;
         }
+        &_submit {
+            width: 300px;
+        }
     }
     .advantages {
         &__blocks {
             flex-direction: column;
             align-items: center;
         }
+    }
+    .consultation {
+        min-height: 650px;
+        padding: 60px 16px 60px 16px;
+        &__descr {
+            margin-top: 30px;
+        }
+        .feed-form {
+            margin-top: 26px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 28px;
+            line-height: 36px;
+        }    
     }
 }
 
@@ -74,17 +102,16 @@
         gap: 16px;
         &__official {
             display: none;
-        }
-        &__logo {
-            
-        }        
+        }      
     }
     .promo {
         &__header {
-            font-size: 32px;
+            font-size: 24px;
+            text-align: center;
         }
         &__subheader {
-            font-size: 18px;
+            font-size: 14px;
+            text-align: center;
         }
         &__wrapper {
             padding-left: 16px;
@@ -97,6 +124,9 @@
         &__icon {
             width: 90px;
             font-size: 11px;
+            img {
+                width: 35px;
+            }
         }
         .button {
             &_main {
@@ -112,8 +142,37 @@
         }
     }
     .advantages {
-        &__header {
+        &__blocks {
+            margin-top: 50px;
+        }
+        &__subheader {
+            margin-top: 10px;
+        }
+        .title {
             font-size: 24px;
         }
+    }
+    .consultation {
+        .feed-form {
+            width: 260px;
+            margin: 20px auto;
+            input {
+                height: 40px;
+            }
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+        }
+        .title_left {
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+        }
+    }
+    .button_submit {
+        width: 260px;
+        height: 45px;
     }
 }
