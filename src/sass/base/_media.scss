@@ -38,6 +38,16 @@
     .button_submit {
         width: 300px;
     }
+    .carousel__inner {
+        img {
+            width: 400px;
+        }
+    .slick-dots{
+        list-style-type: none;
+        }
+    }
+       
+        
 }
 
 @media (max-width: 767px) {
