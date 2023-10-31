@@ -39,6 +39,14 @@
     &_mini {
         min-height: 141px;
     }
+    .error {
+        border: 1px solid $main-color;
+    }
+    label.error {
+        border: none;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
 }
 
 #consultation, #order, #thanks {
