@@ -50,6 +50,9 @@
         a {
             color: #ffffff;
             text-decoration: underline;
+            &:hover {
+                color: $main-color;
+            }
         }
     }
 }
