@@ -30,4 +30,12 @@
         color: #0d0d0d;
         font-weight: 400;
     }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease delay infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }

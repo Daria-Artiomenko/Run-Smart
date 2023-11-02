@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -57,17 +58,17 @@
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__blocks">
                 <div class="advantages__block">
-                    <img src="icons/cup_advantages.png" alt="cup">
+                    <img src="icons/cup_advantages.png" alt="cup" class="advantages__icon">
                     <h3 class="advantages__subheader">Делимся опытом</h3>
                     <div class="advantages__text">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__block">
-                    <img src="icons/heart_advantages.png" alt="heart">
+                    <img src="icons/heart_advantages.png" alt="heart" class="advantages__icon advantages__icon_animated">
                     <h3 class="advantages__subheader">Заботимся о здоровье</h3>
                     <div class="advantages__text">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
                 </div>
                 <div class="advantages__block">
-                    <img src="icons/shoe_advantages.png" alt="shoe">
+                    <img src="icons/shoe_advantages.png" alt="shoe" class="advantages__icon">
                     <h3 class="advantages__subheader">Учим бегать</h3>
                     <div class="advantages__text">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING.</span></div>
                 </div>
@@ -365,7 +366,7 @@
     <section class="reviews">
         <div class="container">
             <h2 class="title title_reviews">отзывы клиентов</h2>
-            <div class="reviews-item">
+            <div class="reviews-item wow animate__fadeInUp animate__animated" data-wow-duration="2s" data-wow-delay="0.5s">
                 <img src="img/irina_clients.png" alt="woman">
                 <div class="reviews-item__wrapper">
                     <div class="reviews-item__name">Ирина Иванченко</div>
@@ -380,7 +381,7 @@
                     </div>
                 </div>
             </div>
-            <div class="reviews-item">
+            <div class="reviews-item wow animate__fadeInUp animate__animated" data-wow-duration="2s" data-wow-delay="0.5s">
                 <img src="img/ivan_clients.png" alt="man">
                 <div class="reviews-item__wrapper">
                     <div class="reviews-item__name">Иван Сёмочкин</div>
@@ -393,7 +394,7 @@
                     </div>
                 </div>
             </div>
-            <div class="reviews-item">
+            <div class="reviews-item wow animate__fadeInUp animate__animated" data-wow-duration="2s" data-wow-delay="0.5s">
                 <img src="img/julia_clients.png" alt="woman">
                 <div class="reviews-item__wrapper">
                     <div class="reviews-item__name">Юлия Дашкина</div>
@@ -467,6 +468,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
