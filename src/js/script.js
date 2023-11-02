@@ -106,7 +106,7 @@ $(document).ready(function(){
             $('.pageup').fadeOut();
         }
     });
-    $('a[href^="#"]').on('click', function() {
+    $('a[href="#up"]').on('click', function() {
 
         const _href = $(this).attr('href');
     
